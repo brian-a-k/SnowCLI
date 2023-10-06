@@ -1,0 +1,29 @@
+profiles:
+  default:
+    user: default_user
+    account: default_account
+    warehouse: default_wh
+    role: default_role
+    database: default_db
+    schema: default_schema
+    private_key_secret: default_key
+    passphrase_secret: default_pw
+    aws_named_profile: default
+  test:
+    user: test_user
+    account: test_account
+    warehouse: test_warehouse
+    role: test_role
+    database: test_db
+    schema: test_schema
+    private_key_secret: test_secret
+    passphrase_secret: test_pw
+  new:
+    user: test_user
+    account: test_account
+    warehouse: test_warehouse
+    role: test_role
+    database: test_db
+    schema: test_schema
+    private_key_secret: test_secret
+    passphrase_secret: test_pw

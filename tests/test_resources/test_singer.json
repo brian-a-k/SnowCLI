@@ -1,0 +1,392 @@
+{
+  "streams": [
+    {
+      "tap_stream_id": "test_schema.test_object",
+      "stream": "test_object",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "primary_col": {
+            "type": "string",
+            "data_classification": null
+          },
+          "incremental_col": {
+            "type": "string",
+            "data_classification": null,
+            "format": "date-time"
+          },
+          "number_col_0": {
+            "type": [
+              "null",
+              "number"
+            ],
+            "data_classification": null
+          },
+          "number_col_1": {
+            "type": [
+              "null",
+              "number(10,6)"
+            ],
+            "data_classification": null
+          },
+          "number_col_2": {
+            "type": [
+              "null",
+              "number(38,1)"
+            ],
+            "data_classification": null
+          },
+          "integer_col": {
+            "type": [
+              "null",
+              "integer"
+            ],
+            "data_classification": null
+          },
+          "float_col": {
+            "type": [
+              "null",
+              "float"
+            ],
+            "data_classification": null
+          },
+          "date_col": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "data_classification": null,
+            "format": "date"
+          },
+          "datetime_col": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "data_classification": null,
+            "format": "date-time"
+          },
+          "binary_col": {
+            "type": "binary",
+            "data_classification": null
+          },
+          "boolean_col": {
+            "type": [
+              "null",
+              "boolean"
+            ],
+            "data_classification": null
+          },
+          "string_col": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "data_classification": null
+          },
+          "name_col": {
+            "type": "string",
+            "data_classification": "pii"
+          },
+          "email_col": {
+            "type": "string",
+            "data_classification": "pii"
+          },
+          "account_col": {
+            "type": "number",
+            "data_classification": "pii"
+          },
+          "mod_col": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "data_classification": null
+          },
+          "mod_col_non_null": {
+            "type": "string",
+            "data_classification": null
+          },
+          "tag_column_pii": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "data_classification": "pii"
+          },
+          "varchar_length": {
+            "type": [
+              "null",
+              "string(50)"
+            ],
+            "data_classification": null
+          },
+          "mod_number_col": {
+            "type": [
+              "null",
+              "number(38,0)"
+            ],
+            "data_classification": null
+          }
+        }
+      },
+      "metadata": [
+        {
+          "breadcrumb": [
+            "properties",
+            "primary_col"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "sql-datatype": "varchar",
+            "data_classification": null,
+            "is-pii": false
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "incremental_col"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "sql-datatype": "TIMESTAMP_NTZ",
+            "data_classification": null,
+            "is-pii": false
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "number_col_0"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "sql-datatype": "number",
+            "data_classification": null,
+            "is-pii": false
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "number_col_1"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "sql-datatype": "number(10,6)",
+            "data_classification": null,
+            "is-pii": false
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "number_col_2"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "sql-datatype": "number(38,1)",
+            "data_classification": null,
+            "is-pii": false
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "integer_col"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "sql-datatype": "integer",
+            "data_classification": null,
+            "is-pii": false
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "float_col"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "sql-datatype": "float",
+            "data_classification": null,
+            "is-pii": false
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "date_col"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "sql-datatype": "date",
+            "data_classification": null,
+            "is-pii": false
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "datetime_col"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "sql-datatype": "datetime",
+            "data_classification": null,
+            "is-pii": false
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "binary_col"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "sql-datatype": "binary",
+            "data_classification": null,
+            "is-pii": false
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "boolean_col"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "sql-datatype": "boolean",
+            "data_classification": null,
+            "is-pii": false
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "string_col"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "sql-datatype": "varchar",
+            "data_classification": null,
+            "is-pii": false
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "name_col"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "sql-datatype": "varchar",
+            "data_classification": "pii",
+            "is-pii": false
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "email_col"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "sql-datatype": "varchar",
+            "data_classification": "pii",
+            "is-pii": false
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "account_col"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "sql-datatype": "number",
+            "data_classification": "pii",
+            "is-pii": false
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "mod_col"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "sql-datatype": "varchar",
+            "data_classification": null,
+            "is-pii": false
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "mod_col_non_null"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "sql-datatype": "varchar",
+            "data_classification": null,
+            "is-pii": false
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "tag_column_pii"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "sql-datatype": "varchar",
+            "data_classification": "pii",
+            "is-pii": false
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "varchar_length"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "sql-datatype": "varchar(50)",
+            "data_classification": null,
+            "is-pii": false
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "mod_number_col"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "sql-datatype": "number(38,0)",
+            "data_classification": null,
+            "is-pii": false
+          }
+        },
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "system-name": "Test_sys",
+            "schema-name": "test_schema",
+            "selected": true,
+            "custom-query": {},
+            "destination-table-name": "test_object",
+            "table-key-properties": [
+              "primary_col"
+            ],
+            "replication-key": "incremental_col",
+            "replication-method": "INCREMENTAL"
+          }
+        }
+      ]
+    }
+  ]
+}
